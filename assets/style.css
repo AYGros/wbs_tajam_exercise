@@ -694,15 +694,19 @@ justify-content: space-between;
 padding-bottom: 25px;
 }
 
-.subscribe .button {
-  text-decoration: none;
+.subscribe .subscribe_email input {
   color: white;
   padding: 14px 30px 13px 16px;
   border: thin solid white;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  opacity: 0.5;
+  opacity: 0.6;
+  background-color: transparent;
  }
+
+.subscribe .subscribe_email ::placeholder {
+  color: white;
+}
 
 .paper_container {
 width: 70px;
